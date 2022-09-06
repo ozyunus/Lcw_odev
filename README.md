@@ -9,4 +9,5 @@ Basic Selenium Project
 6- Anasayfaya geri dönünüz.
 
 
-https://www.loom.com/share/686b2deba6c1457b8a2f08076312113f
+https://user-images.githubusercontent.com/17904864/188580946-0e2a0c1e-98c7-4ca4-b606-17c5e9499d44.mp4
+

@@ -7,3 +7,6 @@ Basic Selenium Project
 4- Ürünü sepete ekleyiniz.
 5- Sepet sayfasına gidiniz.
 6- Anasayfaya geri dönünüz.
+
+
+https://www.loom.com/share/686b2deba6c1457b8a2f08076312113f

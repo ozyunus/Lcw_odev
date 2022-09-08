@@ -26,8 +26,8 @@ class TestCheckLcwOdev(unittest.TestCase):
         option.add_argument('--disable-extensions')
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option)
         self.driver.maximize_window()
-        self.driver.implicitly_wait(10)
-        self.wait = WebDriverWait(self.driver,self.WAIT_TIME)
+        self.driver.implicitly_wait(self.WAIT_TIME)
+        self.wait = WebDriverWait(self.driver, self.WAIT_TIME)
 
     def test_check_lcw_odev(self):
         self.driver.get(self.base_url)

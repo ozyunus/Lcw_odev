@@ -17,17 +17,18 @@ class TestCheckLcwOdev(unittest.TestCase):
     CART_PAGE = (By.CLASS_NAME, "dropdown-label")
     MAIN_PAGE = (By.CLASS_NAME, "main-header-logo")
     PAYMENT_STEP = (By.CLASS_NAME, 'keep-shopping-label')
-    WAIT_TIME = 10
+
 
     base_url = 'https://www.lcwaikiki.com/tr-TR/TR'
+    wait_time = 10
 
     def setUp(self):
         option = Options()
         option.add_argument('--disable-extensions')
         self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=option)
         self.driver.maximize_window()
-        self.driver.implicitly_wait(self.WAIT_TIME)
-        self.wait = WebDriverWait(self.driver, self.WAIT_TIME)
+        self.driver.implicitly_wait(self.wait_time)
+        self.wait = WebDriverWait(self.driver, self.wait_time)
 
     def test_check_lcw_odev(self):
         self.driver.get(self.base_url)
